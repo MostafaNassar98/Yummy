@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yummy</title>
+    <link rel="icon" href="./images/logo.png" />
+    <!-- fonawesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- CssStyle -->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <aside>
+        <div class="nav-list">
+            <div>
+                <ul>
+                    <li class="my-4"><a href="./search.html">Search</a></li>
+                    <li class="my-4"><a href="./categories.html">Categories</a></li>
+                    <li class="my-4"><a href="./area.html">Area</a></li>
+                    <li class="my-4"><a href="./ingrediant.html">Ingrediant</a></li>
+                    <li class="my-4"><a href="./contactus.html">Contactus</a></li>
+                </ul>
+            </div>
+            <div class="left-list text-white text-center">
+                <i class="fab fa-facebook-f text-muted"></i>
+                <i class="fab fa-twitter text-muted mx-2 mb-3"></i>
+                <i class="fas fa-globe text-muted"></i>
+                <p class="text-muted">
+                    Contact Us Copyright Â© 2019 <br/>
+                        All Rights Reserved.
+                </p>
+            </div>
+
+        </div>
+        <div class="menue d-flex">
+            <img  src="./images/logo.png" alt="logo" />
+            <div class="menue-icon">
+                <i class="fa-solid fa-xmark d-none"></i>
+                <i class="fa fa-align-justify manu"></i>
+            </div>
+            <div class="mb-3">
+                <i class="fas fa-globe"></i>
+                <br/>
+                <i class="fas fa-share-alt"></i>
+            </div>
+        </div>
+    </aside>
+    <section class="text-white d-flex align-items-center justify-content-center mt-5 pt-5">
+        <div class=" mt-5 p-5  col-lg-8  text-center">
+        <div class="row  gy-3">
+            <!-- input name -->
+            <div class="col-lg-6">
+                <div class="error position-relative"><input type="text" class="form-control  rounded-3  input-name  " placeholder="Enter Your Name">
+                    <i class="fa-solid fa-xmark text-danger position-absolute d-none red"></i>
+                    <i class="fa-solid fa-check text-success position-absolute d-none green"></i>
+                </div>
+                <div class="alert alert-danger mt-1 d-none alert-name" role="alert">
+
+                    Enter Only Characters
+                </div>
+            </div>
+            <!-- input email -->
+            <div class="col-lg-6">
+                <div class="error position-relative"><input type="text" class="form-control  rounded-3  input-email  " placeholder="Enter Your Email">
+                    <i class="fa-solid fa-xmark text-danger position-absolute d-none red"></i>
+                    <i class="fa-solid fa-check text-success position-absolute d-none green"></i>
+                </div>
+                <div class="alert alert-danger mt-1 d-none alert-email" role="alert">
+                    Enter valid Email
+                </div>
+            </div>
+            <!-- input phone -->
+            <div class="col-lg-6">
+                <div class="error position-relative"><input type="number" class="form-control  rounded-3  input-phone  " placeholder="Enter Phone">
+                    <i class="fa-solid fa-xmark text-danger position-absolute d-none red"></i>
+                    <i class="fa-solid fa-check text-success position-absolute d-none green"></i>
+                </div>
+                <div class="alert alert-danger mt-1 d-none alert-phone" role="alert">
+                    invalid Phone Number
+                </div>
+            </div>
+            <!-- input age -->
+            <div class="col-lg-6">
+                <div class="error position-relative"><input type="number" class="form-control  rounded-3  input-age  " placeholder="Enter Your Age">
+                    <i class="fa-solid fa-xmark text-danger position-absolute d-none red"></i>
+                    <i class="fa-solid fa-check text-success position-absolute d-none green"></i>
+                </div>
+                <div class="alert alert-danger mt-1 d-none alert-age" role="alert">
+                    Age Between 18 to 100 years
+                </div>
+            </div>
+            <!-- input password -->
+            <div class="col-lg-6">
+                <div class="error position-relative"><input type="password" class="form-control  rounded-3  input-password  " placeholder="Enter Your Password">
+                    <i class="fa-solid fa-xmark text-danger position-absolute d-none red"></i>
+                    <i class="fa-solid fa-check text-success position-absolute d-none green"></i>
+                </div>
+                <div class="alert alert-danger mt-1 d-none alert-password" role="alert">
+                    Minimum eight characters, at least one letter, one number and one special character
+                </div>
+            </div>
+            <!-- input repassword -->
+            <div class="col-lg-6">
+                <div class="error position-relative"><input type="password" class="form-control  rounded-3  input-repassword  " placeholder="Enter Your Password">
+                    <i class="fa-solid fa-xmark text-danger position-absolute d-none red"></i>
+                    <i class="fa-solid fa-check text-success position-absolute d-none green"></i>
+                </div>
+                <div class="alert alert-danger mt-1 d-none alert-repassword" role="alert">
+                    didn't match Passwords
+                </div>
+            </div>
+        </div>
+        <button type="button" disabled class="btn btn-outline-danger mt-4  ">Submit</button>
+
+    </div>
+
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

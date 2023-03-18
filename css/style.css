@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+}
+/* ========================= */
+/* start aside */
+aside{
+    background-color: black;
+    z-index: 999;
+    width: 18.75rem;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    flex-direction: column;
+}
+aside ul li{
+    list-style-type: none;
+}
+aside ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+aside ul li a:hover{
+    color: white;
+}
+.nav-list{
+    width: 80%;
+    float: left;
+    height: 100%;
+}
+.menue{
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.menue img{
+    width: 50px;
+    height: 50px;
+}
+.menue-icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+.left-list{
+    position: absolute;
+    bottom: 30px;
+    color: white;
+}
+.left-list i{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.4);
+}
+/* end aside */
+/* ==================================== */
+/* start home */
+.item{
+    overflow: hidden;
+    border-radius: 4px;
+}
+.item h3 {
+    cursor: pointer;
+    font-size: 1.75rem;
+    font-family: sans-serif;
+}
+.item-caption {
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    top: 100%;
+    background-color: #f9f6f6ca;
+    transition: all 1s;
+}
+.item:hover .item-caption {
+    top: 0%;
+}
+/* end home */
+/* ================================== */
+/* start area */
+.area-item{
+    background-color: black;
+    color: white;
+}
+.area-item h3{
+    font-size:  1.75rem;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.area-item i{
+    font-weight: 900;
+    font-size: 5rem;
+}
+/* end area */
+/* ================================= */
+/* start ingrediant */
+.ingrediant-item{
+    background-color: black;
+    color: white;
+}
+.ingrediant-item h3{
+    font-size:  1.75rem;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.ingrediant-item i{
+    font-weight: 900;
+    font-size: 5rem;
+}
+/* end ingrediant */
